@@ -1,0 +1,9 @@
+.footer .navbar{
+    background: #F9F9FA;
+    height: 25px;
+}
+
+.footer .nav-link{
+    font-size: 9px;
+    color: #787885;
+}

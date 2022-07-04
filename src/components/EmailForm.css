@@ -1,0 +1,28 @@
+label {
+    padding-left: 5px;
+    font-size: 16px;
+    position: absolute;
+}
+
+.togglePassword{
+    position: absolute;
+    top: 3vh;
+    left: 85%;
+    cursor: pointer;
+}
+
+.subscription-note{
+    margin: 10px;
+}
+
+#password-check, #password-check-active{
+    margin: 5px;
+    border: 2px solid #9C2B23;
+    border-radius: 15px;
+    color: #9C2B23;
+}
+
+#password-check-active{
+    border: 2px solid #1B4EA3;
+    color:#1B4EA3;
+}

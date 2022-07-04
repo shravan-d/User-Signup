@@ -1,0 +1,47 @@
+.nav-bar .navbar{
+    background: #F9F9FA;
+    height: 75px;
+    width: 100%;
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 50px;
+}
+
+#container-nav{
+    justify-content: end;
+}
+
+#container-nav #page-num, #page-num-active{
+    color: #B4B4BB;
+    font-size: 16px;
+    border: 2px solid #B4B4BB;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 8px;
+    display: inline;
+}
+@media screen and (max-width: 600px){
+    #hr, #hr-active,
+    #container-nav #page-num, #page-num-active{
+        display: none;
+    }
+}
+
+#container-nav #page-num-active{
+    color: #ffffff;
+    border: 2px solid #050505;
+    background-color: #050505;
+}
+
+#hr, #hr-active{
+    color: #B4B4BB;
+    margin: 10px;
+    width: 50px;    
+}
+
+#hr-active{
+    color: #000000;
+}
